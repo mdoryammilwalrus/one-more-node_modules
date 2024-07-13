@@ -1,6 +1,6 @@
 "use client";
 
-import disabled from "../lib/disabled";
+import disabled from "@/lib/disabled";
 
 export default function Error() {
 	return (

@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import disabled from "../lib/disabled";
+import disabled from "@/lib/disabled";
 
 export const metadata: Metadata = {
   title: "Page Not Found"

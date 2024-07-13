@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import disabled from "../../lib/disabled";
+import disabled from "@/lib/disabled";
 
 export const metadata: Metadata = {
   title: "Services",
@@ -16,7 +16,7 @@ export default function Services() {
             <br></br>
             <ul className="service-lists">
               <li>
-                <Service href="https://holyubofficial.net" source="https://github.com/holy-unblocker/website">Holy Unblocker</Service>
+                <Service href="https://holyunblocker.org" source="https://github.com/QuiteAFancyEmerald/Holy-Unblocker">Holy Unblocker</Service>
               </li>
               <li>
                 <Service href="https://example.com">Incognito</Service>
